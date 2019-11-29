@@ -11,7 +11,7 @@ const HotApp = hot(App);
 
 render(
   <Provider store={store}>
-    <HotApp />
+    <App />
   </Provider>,
   document.getElementById("root")
 );
